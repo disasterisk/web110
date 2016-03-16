@@ -65,6 +65,9 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+#wrapper {
+  min-width: 500px;
+}
 #here a {
   color: #666;
   text-decoration: none;
