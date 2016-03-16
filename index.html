@@ -9,16 +9,24 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
       </script>
     <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="jquery.blueberry.js"></script>
+    <script src="js/jquery.blueberry.js"></script>
+    <script>
+    $(window).load(function() {
+    	$('.blueberry').blueberry();
+    });
+    </script>
   </head>
   <body id='index'>
     <header>
       <hr id='top'>
-      <h1>Ali Weil</h1>
+      <h1><a href="index.html">Ali Weil</a></h1>
       <hr id='bottom'>
     </header>
     <nav>
       <ul>
-        <li id="here">Home</li>
+        <li id="here"><a href="index.html">Home</a></li>
         <li>About</li>
         <li><a href="gallery.html">Gallery</a></li>
         <li>Contact</li>
@@ -27,8 +35,31 @@
     <div id='wrapper'>
     <main>
       <h2>Books</h2>
-      <img src="images/bookplaceholder.png" alt="placeholder for book">
-      <figcaption>Book Name</figcaption>
+      <!-- blueberry -->
+
+          <div class="blueberry">
+            <ul class="slides">
+              <li>
+                <img src="images/bookplaceholder.png" alt="placeholder for book">
+                <p>Book Name</p>
+              </li>
+              <li>
+                <img src="images/bookplaceholder2.png" alt="placeholder for book">
+                <p>Red Book</p>
+              </li>
+              <li>
+                <img src="images/bookplaceholder3.png" alt="placeholder for book">
+                <p>Blue Book</p>
+              </li>
+              <li>
+                <img src="images/bookplaceholder4.png" alt="placeholder for book">
+                <p>Green Book</p>
+              </li>
+            </ul>
+          </div>
+
+      <!-- blueberry -->
+
     </main>
     <aside>
       <h3>Featured Work</h3>
@@ -38,5 +69,6 @@
       <figcaption>Art Name</figcaption>
     </aside>
   </div> <!--End wrapper-->
+  <link rel="stylesheet" href="css/blueberry.css">
   </body>
 </html>
