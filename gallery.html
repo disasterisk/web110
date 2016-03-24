@@ -9,6 +9,7 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
       </script>
     <![endif]-->
+    <link href="css/lightbox.css" rel="stylesheet">
   </head>
   <body id="gallery">
     <header>
@@ -19,68 +20,47 @@
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li>About</li>
-        <li id="here">Gallery</li>
-        <li>Contact</li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li id="here"><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <div id="wrapper">
-      <main>
-        <h2>Books</h2>
-        <div class="book">
-          <img src="images/bookplaceholder.png" alt="placeholder for book">
-          <figcaption>Book Title</figcaption>
-        </div>
-        <div class="book">
-          <img src="images/bookplaceholder.png" alt="placeholder for book">
-          <figcaption>Book Title</figcaption>
-        </div>
-        <div class="book">
-          <img src="images/bookplaceholder.png" alt="placeholder for book">
-          <figcaption>Book Title</figcaption>
-        </div>
-        <div class="book">
-          <img src="images/bookplaceholder.png" alt="placeholder for book">
-          <figcaption>Book Title</figcaption>
-        </div>
-        </main>
-        <aside>
-          <h3>Arts</h3>
-          <div class="art">
-            <img src="images/artplaceholder.png" alt="placeholder for art">
-            <figcaption>Title</figcaption>
-          </div>
-          <div class="art">
-            <img src="images/artplaceholder.png" alt="placeholder for art">
-            <figcaption>Title</figcaption>
-          </div>
-
-          <div class="art">
-            <img src="images/artplaceholder.png" alt="placeholder for art">
-            <figcaption>Title</figcaption>
-          </div>
-          <div class="art">
-            <img src="images/artplaceholder.png" alt="placeholder for art">
-            <figcaption>Title</figcaption>
-          </div>
-          <div class="art">
-            <img src="images/artplaceholder.png" alt="placeholder for art">
-            <figcaption>Title</figcaption>
-          </div>
-          <div class="art">
-            <img src="images/artplaceholder.png" alt="placeholder for art">
-            <figcaption>Title</figcaption>
-          </div>
-
-          <div class="art">
-            <img src="images/artplaceholder.png" alt="placeholder for art">
-            <figcaption>Title</figcaption>
-          </div>
-          <div class="art">
-            <img src="images/artplaceholder.png" alt="placeholder for art">
-            <figcaption>Title</figcaption>
-          </div>
-      </aside>
+      <h3>Gallery</h3>
+      <div class="art">
+        <a href="images/untitled.png" data-lightbox="gallery"><img src="images/untitledthumb.png" alt="actual art"></a>
+      </div>
+      <div class="art">
+        <a href="images/csection.png" data-lightbox="gallery" data-title= "I Was a C-Section Baby"><img src="images/csectionthumb.png" alt="actual art"></a>
+      </div>
+      <div class="art">
+        <a href="images/anne.png" data-lightbox="gallery" data-title="Anne Sexton"><img src="images/annethumb.png" alt="actual art"></a>
+      </div>
+      <div class="art">
+        <a href="images/pinkandgold.png" data-lightbox="gallery"><img src="images/pinkandgoldthumb.png" alt="actual art"></a>
+      </div>
+      <div class="art">
+        <a href="images/elevator.png" data-lightbox="gallery" data-title="Was I the Only One Who Knew About the Elevator?"><img src="images/elevatorthumb.png" alt="actual art"></a>
+      </div>
+      <div class="art">
+        <a href="images/couch.png" data-lightbox="gallery" data-title="Okay, but It Was a Good Fucking Couch and I Still Really Miss It, Okay?"><img src="images/couchthumb.png" alt="actual art"></a>
+      </div>
+      <div class="art">
+        <a href="images/untitled2.png" data-lightbox="gallery"><img src="images/untitled2thumb.png" alt="actual art"></a>
+      </div>
+      <div class="art">
+        <a href="images/mournful.png" data-lightbox="gallery" data-title="Mournful"><img src="images/mournfulthumb.png" alt="actual art"></a>
+      </div>
+      <footer>
+        <ul>
+          <li>Copyright (c) 2015 Ali Weil</li>
+          <li>All Rights Reserved.</li>
+        </ul>
+      </footer>
     </div>
+    <script src="js/lightbox.js" type="text/javascript"></script>
+    <script src="js/lightbox-plus-jquery.min.js" type="text/javascript"></script>
+    </body>
   </body>
 </html>

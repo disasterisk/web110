@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>About Ali Weil</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <!--Remy Sharp Shim -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+      </script>
+    <![endif]-->
+  </head>
+  <body id="contact">
+    <header>
+      <hr id='top'>
+      <h1>Ali Weil</h1>
+      <hr id='bottom'>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li id="here"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="wrapper">
+      <fieldset>
+        <form action="formhandler.php" method="post">
+          <table>
+            <tr>
+              <td>
+                <label>first name: </label>
+              </td>
+              <td>
+                <input type="text" name="first name">
+              </td>
+              <td>
+                <label>last name: </label>
+              </td>
+              <td>
+                <input type="text" name="last name">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label>email: </label>
+              </td>
+              <td>
+                <input type="text" name="email" id="email">
+              </td>
+              <td>
+                <label>How can I help you?</label>
+              </td>
+              <td>
+                <select name="reason for contact">
+                  <option>commissions</option>
+                  <option>questions</option>
+                  <option>comments</option>
+                </select>
+              </td>
+          </tr>
+          </table>
+          <textarea name="message" rows="8" cols="40"></textarea>
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+      </fieldset>
+      <footer>
+        <ul>
+          <li>Copyright (c) 2015 Ali Weil</li>
+          <li>All Rights Reserved.</li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
